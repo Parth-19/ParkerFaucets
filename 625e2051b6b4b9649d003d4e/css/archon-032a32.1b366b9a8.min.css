@@ -5147,6 +5147,12 @@ img {
     transition: all .3s cubic-bezier(.25, .46, .45, .94);
     position: relative;
     overflow: hidden
+    
+}
+
+.treatment-image:hover {
+    transform: scale(1.1);
+    
 }
 
 .treatment-image.big {
@@ -5180,6 +5186,7 @@ img {
     border-radius: 4px;
     transform: translateY(-8px);
     box-shadow: 0 12px 14px -7px rgba(122, 119, 114, .26)
+    
 }
 
 .treatment-cards-wrapper.dark {
@@ -11753,7 +11760,7 @@ img {
         z-index: 10;
         width: 100vw;
         height: 100%;
-        background-color: #f1ede7;
+        background-color: #161810;
         flex: 0 auto;
         align-self: flex-start;
         margin-top: 0;
@@ -14894,6 +14901,8 @@ img {
         justify-content: flex-start
     }
 }
+
+
 
 #w-node-_40e08eb3-f182-cac3-e32e-55dcb3dccaf5-fd7ae653,
 #w-node-_40e08eb3-f182-cac3-e32e-55dcb3dccb09-fd7ae653,
