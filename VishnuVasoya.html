@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Visiting Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+        }
+
+        .card-header {
+            background-color: #002442;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-img-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .profile-img-bg {
+            width: 100%;
+            height: 150px; /* Adjust as needed */
+            object-fit: cover;
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin: -50px auto 0;
+            position: relative;
+            z-index: 1;
+            border: 3px solid #fff; /* Add border for better visibility */
+        }
+
+        .name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .job-title {
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .contact i {
+            margin-right: 10px;
+        }
+
+        .website {
+            margin-bottom: 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="profile-img-container">
+                <img class="profile-img-bg" src="img/VCBG.png" alt="Background Image">
+                <img class="profile-img" src="img/Vishnu.jpeg" alt="Profile Image">
+            </div>
+            <div class="name">Vishnu Vasoya</div>
+            <div class="job-title">Founder & CEO</div>
+        </div>
+        <div class="card-body">
+            <div class="website">
+                <i class="fas fa-globe"></i> <a href="www.parkerfaucet.com" target="_blank">parkerfaucet.com</a>
+            </div>
+            <div class="contact">
+                <i class="fas fa-phone"></i> +91 90992 23377
+            </div>
+            <div class="contact">
+                <i class="fas fa-envelope"></i> info@parkerfaucet.com
+            </div>
+            <div class="contact">
+                <i class="fab fa-whatsapp"></i> <a href="https://wa.me/9099223377" target="_blank">Chat on WhatsApp</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/vishnu-vasoya-6a912390/?originalSubdomain=in" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/parkerfaucets/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/parkerfaucetsindia/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
